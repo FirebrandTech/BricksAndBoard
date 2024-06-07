@@ -25,7 +25,7 @@ Jupyter Server 2.8.0 is running at:
 [I 2024-06-07 16:31:24.188 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
-Just click your _second_ link (with 127.0.0.1) in the URL, and you're off to the races.
+Just click your _second_ link (with 127.0.0.1 in the URL), and you're off to the races.
 
 Open up `Challenge.ipynb` in that interface, click into the code block, and click the "Play" icon to run. Want some
 help writing Python? Click "CodeWhisperer" along the bottom of the window, and it will allow you to log into Amazon Q,
