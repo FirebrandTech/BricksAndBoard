@@ -12,7 +12,9 @@ As long as you have docker, you can follow these simple steps to get it running.
 
 **Run the Docker container you just built, exposing Jupyter on port `8888`:**
 
-`docker run --rm -it -p 8888:8888 -v $(pwd):/bricks -w /bricks bricks-and-board`
+**Mac/Linux:** `docker run --rm -it -p 8888:8888 -v $(pwd):/bricks -w /bricks bricks-and-board`
+
+**Windows:** `docker run --rm -it -p 8888:8888 -v %cd%:/bricks -w /bricks bricks-and-board`
 
 **Watch the command output for this section:**
 
