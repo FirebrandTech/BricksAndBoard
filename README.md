@@ -16,16 +16,18 @@ As long as you have docker, you can follow these simple steps to get it running.
 
 **Watch the command output for this section:**
 
-```
+```plaintext
 Jupyter Server 2.8.0 is running at:
-[I 2024-06-07 16:31:24.188 ServerApp] http://8b743bd5feb3:8888/lab?token=cb00fd32adee9db927136d6e25f9d210124d482caedb5118
-[I 2024-06-07 16:31:24.188 ServerApp]     http://127.0.0.1:8888/lab?token=cb00fd32adee9db927136d6e25f9d210124d482caedb5118
+[I 2024-06-07 16:31:24.188 ServerApp] http://8b743bd5feb3:8888/lab?token=SOME_TOKEN
+[I 2024-06-07 16:31:24.188 ServerApp]     http://127.0.0.1:8888/lab?token=SOME_TOKEN
 [I 2024-06-07 16:31:24.188 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
-Just click your _second_ link (with 127.0.0.1) in the URL, and you're off to the races. _The token in this URL gets generated with every launch, so the URLs in this README won't work for you!_
+Just click your _second_ link (with 127.0.0.1) in the URL, and you're off to the races.
 
-Open up `Challenge.ipynb` in that interface, click into the code block, and click the "Play" icon to run.
+Open up `Challenge.ipynb` in that interface, click into the code block, and click the "Play" icon to run. Want some
+help writing Python? Click "CodeWhisperer" along the bottom of the window, and it will allow you to log into Amazon Q,
+an AI coding assistant similar to Github Copilot. Creating an account is free.
 
 All set? On to the challenge.
 
